@@ -1,0 +1,196 @@
+{
+    "pieces": [
+    {
+      "type": "Chariot",
+      "x": 0,
+      "y": 0,
+      "color": "red"
+    },
+    {
+      "type": "Horse",
+      "x": 0,
+      "y": 1,
+      "color": "red"
+    },
+    {
+      "type": "Elephant",
+      "x": 0,
+      "y": 2,
+      "color": "red"
+    },
+    {
+      "type": "Advisor",
+      "x": 0,
+      "y": 3,
+      "color": "red"
+    },
+    {
+      "type": "General",
+      "x": 0,
+      "y": 4,
+      "color": "red"
+    },
+    {
+      "type": "Advisor",
+      "x": 0,
+      "y": 5,
+      "color": "red"
+    },
+    {
+      "type": "Elephant",
+      "x": 0,
+      "y": 6,
+      "color": "red"
+    },
+    {
+      "type": "Horse",
+      "x": 0,
+      "y": 7,
+      "color": "red"
+    },
+    {
+      "type": "Chariot",
+      "x": 0,
+      "y": 8,
+      "color": "red"
+    },
+    {
+      "type": "Cannon",
+      "x": 2,
+      "y": 1,
+      "color": "red"
+    },
+    {
+      "type": "Cannon",
+      "x": 2,
+      "y": 7,
+      "color": "red"
+    },
+    {
+      "type": "Soldier",
+      "x": 3,
+      "y": 0,
+      "color": "red"
+    },
+    {
+      "type": "Soldier",
+      "x": 3,
+      "y": 2,
+      "color": "red"
+    },
+    {
+      "type": "Soldier",
+      "x": 3,
+      "y": 4,
+      "color": "red"
+    },
+    {
+      "type": "Soldier",
+      "x": 3,
+      "y": 6,
+      "color": "red"
+    },
+   {
+      "type": "Soldier",
+      "x": 3,
+      "y": 8,
+      "color": "red"
+    },
+    {
+      "type": "Chariot",
+      "x": 9,
+      "y": 0,
+      "color": "black"
+    },
+    {
+      "type": "Horse",
+      "x": 9,
+      "y": 1,
+      "color": "black"
+    },
+    {
+      "type": "Elephant",
+      "x": 9,
+      "y": 2,
+      "color": "black"
+    },
+    {
+      "type": "Advisor",
+      "x": 9,
+      "y": 3,
+      "color": "black"
+    },
+    {
+      "type": "General",
+      "x": 9,
+      "y": 4,
+      "color": "black"
+    },
+    {
+      "type": "Advisor",
+      "x": 9,
+      "y": 5,
+      "color": "black"
+    },
+    {
+      "type": "Elephant",
+      "x": 9,
+      "y": 6,
+      "color": "black"
+    },
+    {
+      "type": "Horse",
+      "x": 9,
+      "y": 7,
+      "color": "black"
+    },
+    {
+      "type": "Chariot",
+      "x": 9,
+      "y": 8,
+      "color": "black"
+    },
+    {
+      "type": "Cannon",
+      "x": 7,
+      "y": 1,
+      "color": "black"
+    },
+    {
+      "type": "Cannon",
+      "x": 7,
+      "y": 7,
+      "color": "black"
+    },
+    {
+      "type": "Soldier",
+      "x": 6,
+      "y": 0,
+      "color": "black"
+    },
+    {
+      "type": "Soldier",
+      "x": 6,
+      "y": 2,
+      "color": "black"
+    },
+    {
+      "type": "Soldier",
+      "x": 6,
+      "y": 4,
+      "color": "black"
+    },
+    {
+      "type": "Soldier",
+      "x": 6,
+      "y": 6,
+      "color": "black"
+    },
+    {
+      "type": "Soldier",
+      "x": 6,
+      "y": 8,
+      "color": "black"
+    }
+]
+}

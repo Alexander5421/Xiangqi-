@@ -1,0 +1,16 @@
+{
+    "pieces": [
+        {
+            "type": "Cannon",
+            "x": 1,
+            "y": 1,
+            "isRed": true
+        },
+        {
+            "type": "Soldier",
+            "x": 2,
+            "y": 2,
+            "isRed": false
+        }
+    ]
+}
