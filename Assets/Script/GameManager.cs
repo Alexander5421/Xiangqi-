@@ -40,12 +40,21 @@ public class GameManager : MonoBehaviour
 
     public void PutPieces()
     {
+        int count = 0;
+        // destroy all the children of piecesHolder
+        while (piecesHolder.childCount>0&&count<100)
+        {
+            count++;
+            DestroyImmediate(piecesHolder.GetChild(0).gameObject);
+        }
         // based on chessInstance.pieces, put the pieces on the board
         foreach (var piece in chessInstance.pieces)
         {
             int idx = (int)piece.type + (piece.isRed ? 0 : 7);
             // instantiate a new piecePrefab
             GameObject pieceObj = Instantiate(piecePrefabs[idx], piecesHolder, true);
+            // set the rotation of the piecePrefab to be the same as the piecePrefab
+            pieceObj.transform.localRotation = Quaternion.Euler(0,-5,0);
             // set the position of the piecePrefab
             pieceObj.transform.position = IndexToPos(piece.x, piece.y).position;
             // set the parent of the piecePrefab to be the current gameObject

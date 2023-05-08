@@ -6,8 +6,8 @@ using UnityEngine;
 public class posGenerator : MonoBehaviour
 {
     public float interval = 1.0f;
-    public Transform posRed = null;
-    public GameObject posPrefab;
+    public GameObject posRedPrefab = null;
+    public GameObject posBlackPrefab = null;
 
     [ContextMenu("Generate Piece Positions")]
     public void GeneratePiecePositions()
@@ -17,8 +17,8 @@ public class posGenerator : MonoBehaviour
             for (int j = 0; j < 9; j++)
             {
                 // instantiate a new posPrefab
-                GameObject pos = Instantiate(posPrefab, transform, true);
-                pos.transform.localPosition = new Vector3(-j * interval, 0, i * interval);
+                GameObject pos = Instantiate(posBlackPrefab, transform, true);
+                pos.transform.localPosition = new Vector3(-j * interval + posBlackPrefab.transform.localPosition.x, posBlackPrefab.transform.localPosition.y, i * interval+posBlackPrefab.transform.localPosition.z);
                 // set the name of the posPrefab to be the index of the posPrefab
                 pos.name = i + "," + j;
                 // set the position of the posPrefab
@@ -32,8 +32,8 @@ public class posGenerator : MonoBehaviour
             for (int j = 0; j < 9; j++)
             {
                 // instantiate a new posPrefab
-                GameObject pos = Instantiate(posPrefab, transform, true);
-                pos.transform.localPosition = new Vector3(-j * interval+posRed.localPosition.x, 0, i * interval+posRed.localPosition.z);
+                GameObject pos = Instantiate(posRedPrefab, transform, true);
+                pos.transform.localPosition = new Vector3(-j * interval+posRedPrefab.transform.localPosition.x, posRedPrefab.transform.localPosition.y, i * interval+posRedPrefab.transform.localPosition.z);
                 // set the name of the posPrefab to be the index of the posPrefab
                 pos.name = i+5 + "," + j;
                 // set the position of the posPrefab
